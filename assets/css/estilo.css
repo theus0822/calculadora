@@ -1,0 +1,81 @@
+/* RESET GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/anosluz.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.fundo h1{
+    color: rgb(255, 255, 255);
+    position: absolute;    
+    top: 5%;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px rgb(87, 5, 119);
+    
+}
+
+.fundo h2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 1rem;
+    text-shadow: 3px 3px rgb(125, 12, 153);
+    
+}
+
+.calculadora{
+    background-color: rgba(148, 35, 170, 0.425);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(63, 1, 87);
+    
+}
+
+#resultado{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    padding: .2rem .5rem;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    margin: 2rem auto 1rem;
+    height:  2rem;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin: .1rem;
+    box-shadow: 3px 3px #000;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #5e0dbb2a;
+    color: #fff;
+}
+
+td[rowspan="2"] button {
+    background-color: #7700ffa2;
+    height: 6.75rem;
+    color: #fff;
+
+}
+
+td[colspan="2"] button {
+    width: 6.75rem;
+}
